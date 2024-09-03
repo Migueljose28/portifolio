@@ -1,0 +1,701 @@
+body{
+	width: 100%;
+    margin: 0;
+    padding: 0;   
+    height: 100vh;
+    width: 100%;
+    background-image: url("image/floresta.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y; 
+}
+
+a{
+    color: #0A100D;
+    text-decoration:none;
+    transition: 0.3s;
+   
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+header{
+   
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    height: 8vh;
+   
+    background-color:  #EE6C4D ;
+    justify-content: center;
+   
+}
+nav{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.navmobile{
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    margin-right: 20px;
+
+}
+.navmobile > section{
+    display: flex;
+    flex-direction: column;
+    background-color:  white;
+    width: 40px;
+    height: 8px;
+   margin: 2px;
+}
+
+
+.list{
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s;
+}
+
+li{
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.pag-underline{
+    text-decoration: underline black;
+
+
+}
+main{
+    background-color: #EDF2F4;
+    opacity: 0.95;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 84vh;
+    width: 100%;
+    border-radius: 0px 0px 2000px 0px;
+    background-color:#0A100D;
+   
+}
+
+    
+.descript{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    color: #EDF2F4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+
+    
+}
+
+.descript > h1{
+	width: 100%;
+    font-size: 55px;
+    color: #EE6C4D;
+    margin: 0;
+
+}
+.descript > h2{
+	width:100%;
+    font-size: 40px;
+    margin: 0;
+
+}
+.descript > p{
+    margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 20px;
+   text-align: justify;
+   text-indent: 60px;
+}
+
+
+
+.descript > a > button{
+   background-color: #EE6C4D;
+   margin-top: 20px;
+   font-weight: bold;
+   color: black;
+   font-size: large;
+   width: 100%;
+   height: 6vh;
+   
+
+}
+
+button:hover{
+   opacity: 0.7;
+   transition: 0.3s;
+    
+}.fotoperfil{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fotoperfil > img{
+    margin-right: 20px;
+    width:400px;
+    border-radius: 50%;
+    box-shadow: 10px 20px 0px #EE6C4D;
+}
+
+
+
+/*Project*/
+.project{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   opacity: 0.8;
+   background-color: #EDF2F4;
+   height: auto;
+   width: 100%;
+   padding-bottom: 30px;
+   
+}
+
+
+.project > h2{
+    
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.box-project{
+    display: flex;
+    height: 500vh;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.eachproject{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 75vh;
+    background-color: #0A100D;
+    border-radius: 20px;
+
+}
+
+
+.eachproject > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #EDF2F4;
+
+}
+
+.eachproject > a > button{
+    width: 40vw;
+    height: 8vh;
+    margin: 30px;
+    border-radius: 400px;
+    background-color: #EE6C4D;
+    color: #EDF2F4;
+
+}
+.eachproject > p > a{
+    color: aqua;
+}
+
+.upproject{
+    display: flex;
+    height: 200vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+ .downsproject{
+    display: flex;
+    height: 285vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: space-around;
+
+}
+
+.preais, .pwebs{
+    width: 100%;
+}
+
+.preais > h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+.eachproject > img{
+    width:50%;
+}
+
+/*Pagina about*/
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url("image/floresta.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.about > section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+   margin: 0;
+    align-items: center;
+    opacity: 0.85;
+    background-color: #EDF2F4;
+    color: #0A100D;
+ 
+}
+.about > .box > h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #EE6C4D;
+   
+
+}
+
+.about > .box > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    text-indent: 20px;
+    font-size: medium;
+    text-align: justify;
+    
+}
+
+
+  /*conhecimento e footer*/
+.graficos{
+    display: flex;
+    flex-direction: row;
+    width:60%;
+
+    justify-content: space-around;
+}
+
+.liguagem{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: none;
+    flex-direction: column;
+    
+}
+.liguagem > span, .idiomas > span{ 
+    margin: 5px; 
+    opacity:0.8;
+}
+.liguagem > h3{
+    text-align: center;
+    opacity:0.8;
+    color: #EE6C4D;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#java{
+ display: flex;
+
+ background-color: #EE6C4D;
+ border-radius: 10px;
+ color: #0A100D;
+ padding: 10px;
+ width: auto;
+ justify-content: space-around;
+ align-items: center;
+}
+
+#java > .barra{
+   
+    border-radius: 0px 20px 20px 0px;
+    background-color: #0A100D;
+    width: 15vw;
+    height: 4vh;
+}
+
+#java > .barra > .nivel{
+    display: flex;
+    background-color: #EDF2F4;
+    color: #000;
+    height: 100%;
+    width: 50%;
+}
+
+#python{
+    display: flex;
+    background-color: #EDF2F4;
+    border-radius: 10px;
+    color: #0A100D;
+    padding: 10px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+   #python > .barra{
+      
+       border-radius: 0px 20px 20px 0px;
+       background-color: #0A100D;
+       width: 15vw;
+       height: 4vh;
+   }
+   
+   #python > .barra > .nivel{
+       display: flex;
+       background-color: #EE6C4D;
+       color: #000;
+       height: 100%;
+       width: 15%;
+   }
+   #javaScript{
+    display: flex;
+    
+    background-color: #EDF2F4;
+    border-radius: 10px;
+    color: #0A100D;
+    padding: 10px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   #javaScript > .barra{
+     
+       border-radius: 0px 20px 20px 0px;
+       background-color: #0A100D;
+       width: 15vw;
+       height: 4vh;
+   }
+   
+   #javaScript > .barra > .nivel{
+       display: flex;
+       background-color: #EE6C4D;
+       color: #000;
+       height: 100%;
+       width: 10%;
+   }
+   .idiomas{
+   
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column; 
+}
+.idiomas > h3{
+    text-align: center;
+   
+    color: #EE6C4D;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#portugues{
+    display: flex;
+    
+    background-color: #EDF2F4;
+    border-radius: 10px;
+    color: #0A100D;
+    padding: 10px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+   #portugues > .barra{
+      
+       border-radius: 0px 20px 20px 0px;
+       background-color: #0A100D;
+       width: 15vw;
+       height: 4vh;
+   }
+   
+   #portugues > .barra > .nivel{
+       display: flex;
+       background-color: #EE6C4D;
+       color: #000;
+       height: 100%;
+       width: 80%;
+   }
+   
+   #english{
+       display: flex;
+      
+       background-color: #EE6C4D;
+       border-radius: 10px;
+       color: #0A100D;
+       padding: 10px;
+       width: auto;
+       justify-content: space-around;
+       align-items: center;
+      }
+      
+      #english > .barra{
+          
+          border-radius: 0px 20px 20px 0px;
+          background-color: #0A100D;
+          width: 15vw;
+          height: 4vh;
+      }
+      
+      #english > .barra > .nivel{
+          display: flex;
+          background-color: #EDF2F4;
+          color: #000;
+          height: 100%;
+          width: 40%;
+      }
+      #espanhol{
+       display: flex;
+       
+       background-color: #EDF2F4;
+       border-radius: 10px;
+       color: #0A100D;
+       padding: 10px;
+       width: auto;
+       justify-content: center;
+       align-items: center;
+      }
+      
+      #espanhol > .barra{
+         
+          border-radius: 0px 20px 20px 0px;
+          background-color: #0A100D;
+          width: 15vw;
+          height: 4vh;
+      }
+      
+      #espanhol > .barra > .nivel{
+          display: flex;
+          background-color: #EE6C4D;
+          color: #000;
+          height: 100%;
+          width: 5%;
+      }
+
+
+    
+
+      .conhecimento{
+        height: 80vh;
+        width: 100%;
+        background-image: url("image/floresta.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+
+      }
+      
+      .shandow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 80vh;
+        opacity: 0.8;
+        background-color: #0A100D;
+
+    }
+
+   
+    footer{
+		
+		height:auto;
+		color: white;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
+		align-items: center;
+		background-color:#0A100D;
+		width: 100%;
+        margin: 0;
+	}
+    
+    .redeSociais{
+		display: flex;
+		flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+		
+	}
+	.redeSociais > ul{
+		display: flex;
+		flex-direction: row;
+		
+		justify-content: space-around;
+		list-style-type: none;
+	}
+	
+
+	.redes{
+      width: 50%;
+      
+    }
+
+    i{
+        color: #EDF2F4;
+        font-size: x-large;
+    }
+	.tellme > h3,  .redeSociais > h3{
+		text-transform: uppercase;
+		color: #EE6C4D;
+        
+	}
+
+
+
+
+/*Celular*/
+
+
+@media (max-width: 700px){
+
+	.fotoperfil > img{
+        width: 78vw;
+    }
+    .descript > h1{
+        font-size: 40px;
+    }
+    .descript > h2{
+        font-size: 25px;
+    }
+    .descript > p{
+        
+        font-size: 15px;
+    }
+
+    .eachproject{
+        height: 60vh;
+    }
+    .eachproject > img{
+        width:90%;
+    }
+
+    .eachproject > p{
+        margin: 10px;
+    }
+    
+    .about  > .box > h2{
+    font-size: 30px;
+    }
+    .about  > .box > p{
+        font-size: 14px;
+        }
+
+
+
+    .graficos{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .liguagem > span, .idiomas > span{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .liguagem > h3, .idiomas > h3{
+        font-size: 25px;
+
+    }
+
+    #java > .barra,  #python > .barra,  #javaScript > .barra,  #portugues > .barra, #english > .barra, #espanhol > .barra{
+        height: 10px;
+        width: 70vw;
+     
+
+    }
+
+    .nivel{
+        width: 100px;
+
+    }
+
+    footer{
+       
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .redeSociais{
+        display: none;
+    }
+
+}
+
+
+/*padrão-intro --não é para mudar nada*/ 
+@media (max-width: 850px){
+    .list{
+        display: none;
+    }
+    .navmobile{
+        display: flex;
+    }
+	.introduction{
+		display: flex;
+        flex-direction: column-reverse;
+        border-radius: 0px;
+        height: 92vh;
+	}
+
+    
+}
+
+@media (max-width: 375px){
+    .fotoperfil > img{
+        width: 65%;
+    }
+
+
+}
